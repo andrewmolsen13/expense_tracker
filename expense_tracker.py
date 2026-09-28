@@ -23,7 +23,7 @@ while expense != 0 :
         if expense < 25 :
             small_expense += 1
         elif expense <= 100 :
-                moderate_expense += 1
+            moderate_expense += 1
         else :
             large_expense +=1
         expense = float(input("\nEnter Your next expense (enter 0 when finished): "))
